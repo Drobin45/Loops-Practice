@@ -242,15 +242,15 @@ namespace Loops_Practice
             //12
             //123
             //1234 .....
-            
-            for (int rows = 1; rows <= 20; rows++)
-            {
-                for (int columns = 1; columns <= rows; columns++)
-                {
-                    Console.Write(columns);
-                }
-                Console.WriteLine();
-            }
+
+            //for (int rows = 1; rows <= 20; rows++)
+            //{
+            //    for (int columns = 1; columns <= rows; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
 
 
 
@@ -285,6 +285,22 @@ namespace Loops_Practice
             //{
 
             //}
+
+            //Homework 3
+            //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+
+
+
+            //Homework 4
+            //Create an array of your favorite movies....
+            //...Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
+
+
+
+            //Homework 5
+            //Write a console application that asks the user for an integer. 
+            //If that integer is evenly divisible by 3, then write “You Won!” 
+            //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
 
 
 
