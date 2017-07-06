@@ -174,15 +174,15 @@ namespace Loops_Practice
             //... when you want a chunk of code to run at least once but repeat only if the while...
             //... condition is met.
 
-            //the structure of a Do-while loop looks like this
+            //the structure of a Do -while loop looks like this
             // do
             //{
-            // Does a thing
+            //    Does a thing
             //}
-            //while(condition);
+            //while (condition);
 
             //string playAgain;
-            //do 
+            //do
             //{
             //    Console.WriteLine("Welcome to my game!");
 
@@ -200,19 +200,61 @@ namespace Loops_Practice
             // ask the user if they have another class they would like to add to their GPA calculation
             //Using a Do-While loop, repeat the code if the user says "YES".
 
-            string newClass;
-            do
+            //string newClass;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add to your GPA calculation?");
+            //    string course = Console.ReadLine();
+
+            //    Console.WriteLine("What is the letter grade for your class?");
+            //    string grade = Console.ReadLine();
+
+            //    Console.WriteLine("Would you like to add another class?");
+            //    newClass = Console.ReadLine().ToUpper();
+            //}
+            //while (newClass == "YES");
+
+            //-----------------------------------------------------------------------------------
+
+            //Nested loops: A loop in a loop!
+            //Inner loop is executed more times than the outer loop
+            // Real life example: Clock
+
+            // Create a nested loop structure that prints:
+            //2 rows/4 colums
+            // 1234
+            // 1234
+
+            //for (int rows = 1; rows <= 2; rows++)
+            //{
+            //    for (int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // Print a triangle
+            // Outer loop will go line by line
+            //The inner loop will go over different elements in the line.
+            //Result:
+            //1
+            //12
+            //123
+            //1234 .....
+            
+            for (int rows = 1; rows <= 20; rows++)
             {
-                Console.WriteLine("What class would you like to add to your GPA calculatoin?");
-                string course = Console.ReadLine();
-
-                Console.WriteLine("What is the letter grade for your class?");
-                string grade = Console.ReadLine();
-
-                Console.WriteLine("Would you like to add another class?");
-                newClass = Console.ReadLine().ToUpper();
+                for (int columns = 1; columns <= rows; columns++)
+                {
+                    Console.Write(columns);
+                }
+                Console.WriteLine();
             }
-            while (newClass == "YES");
+
+
+
+
 
 
 
@@ -237,12 +279,12 @@ namespace Loops_Practice
             // Do this for five numbers.
             //Began, but not finished yet
 
-            int[] numbers = { 2, 4, 6, 8, 10 };
+            //int[] numbers = { 2, 4, 6, 8, 10 };
 
-            foreach (int favorites in numbers)
-            {
+            //foreach (int favorites in numbers)
+            //{
 
-            }
+            //}
 
 
 
