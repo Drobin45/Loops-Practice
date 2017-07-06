@@ -150,15 +150,100 @@ namespace Loops_Practice
             //While something is TRUE, do this thing.(boolian logic)
             //Rarely useful
 
-            Console.WriteLine("What is your first name?");
-            string firstName = Console.ReadLine();
+            //Console.WriteLine("What is your first name?");
+            //string firstName = Console.ReadLine();
 
-            while(firstName.ToUpper() == "DANIEL")
+            //while(firstName.ToUpper() == "DANIEL")
+            //{
+            //    Console.WriteLine("Dude, you are amazing!");
+            //    break;
+            //}
+
+            //Console.WriteLine("Do you want to play a game? YES/NO");
+            //string playAgain = Console.ReadLine().ToUpper();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+
+            //Do-while loops
+            //A Do-while loop is simily to a while loop, however a Do-while loop is used...
+            //... when you want a chunk of code to run at least once but repeat only if the while...
+            //... condition is met.
+
+            //the structure of a Do-while loop looks like this
+            // do
+            //{
+            // Does a thing
+            //}
+            //while(condition);
+
+            //string playAgain;
+            //do 
+            //{
+            //    Console.WriteLine("Welcome to my game!");
+
+            //    //let's pretend the code for the game is here  
+
+            //    Console.WriteLine("Great game!");
+            //    Console.WriteLine("Do you want ot play again? YES/NO");
+            //    playAgain = Console.ReadLine().ToUpper();
+            //}
+            //while (playAgain == "YES");
+
+
+            // ask the user for the class (in school) that they would like to add to their GPA calculation
+            // ask the user for the letter grade for the class (no + or -)
+            // ask the user if they have another class they would like to add to their GPA calculation
+            //Using a Do-While loop, repeat the code if the user says "YES".
+
+            string newClass;
+            do
             {
-                Console.WriteLine("Dude, you are amazing!");
-                break;
+                Console.WriteLine("What class would you like to add to your GPA calculatoin?");
+                string course = Console.ReadLine();
+
+                Console.WriteLine("What is the letter grade for your class?");
+                string grade = Console.ReadLine();
+
+                Console.WriteLine("Would you like to add another class?");
+                newClass = Console.ReadLine().ToUpper();
             }
-                
+            while (newClass == "YES");
+
+
+
+
+
+
+            // Homework 1
+            //Write a program that takes your favorite foods and prints them out one at a time. (Use a foreach loop.)
+            // Complete!
+
+            //string[] foods = { "eggs", "toast", "pancakes", "oatmeal", "waffles" };
+
+            //foreach (string favorites in foods)
+            //{
+            //    Console.WriteLine(favorites);
+            //}
+
+
+            // Homework 2
+            //Creat an array of lucky numbers. Using a foreach loop, print out the following:
+            // "Your lucky number is: #" 
+            // Do this for five numbers.
+            //Began, but not finished yet
+
+            int[] numbers = { 2, 4, 6, 8, 10 };
+
+            foreach (int favorites in numbers)
+            {
+
+            }
+
 
 
         }
