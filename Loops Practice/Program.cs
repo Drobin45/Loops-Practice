@@ -42,10 +42,71 @@ namespace Loops_Practice
             //Console.WriteLine("After the loop has run, i now has the value of" + i);
 
             //Count from 50 to 100
-            for (int i = 50; i <= 100; i++)
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 50; i <= 100; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Turns a string into an array!!! The following array would be {My, name, is, little, bill.}
+            //for loop to print every element of an array from {0} to the {last element}
+            //string greeting = "My name is Little Bill.";
+            //string[] wordsInGreeting = greeting.Split();            
+
+
+            //for (int i = 0; i < wordsInGreeting.Length; i++)
+            //{
+            //    Console.WriteLine(wordsInGreeting[i]);
+            //}
+
+            // Create an array called days with the elements Monday, tuesday, and Wednesday.
+            //Useing a For Loop, print the elements of the day array.
+            //Complete!            
+
+            //string days = "Monday Tuesday Wednesday";
+            //string[] dayArray = days.Split();
+
+            //for (int i = 0; i < dayArray.Length; i++)
+            //{
+            //    Console.WriteLine(dayArray[i]);
+            //}
+
+
+            //Start with the string "Once upon a time" and create an array called
+            //storyWords using the Split method. reverse the order of the elements in
+            //the array and using a For Loop, print each word
+            //Complete!
+
+            //string words = "Once upon a time";
+            //string[] storyWords = words.Split();
+            //Array.Reverse(storyWords);
+
+            //for (int i = 0; i < storyWords.Length; i++)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
+            //Add the product (multiplicatoin 1*2*3*4*5*6*etc) of 1 through 10
+            //Print the product to screen
+            //Complete!
+
+
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int product = numbers[0];
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    product = product * numbers[i];             
+            //}
+            //Console.WriteLine(product);
+
+            //int product = 1;
+            //for(int i = 1; i<= 10; i++)
+            //{
+            //    product = product * i;
+            //}
+            //Console.WriteLine(product);
+
+            //-----------------------------------------------------------------------------------
+
+
 
         }
     }
