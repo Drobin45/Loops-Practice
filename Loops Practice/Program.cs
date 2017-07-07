@@ -351,6 +351,36 @@ namespace Loops_Practice
             //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
 
 
+            //Console.WriteLine("Enter your number for the numbers game!");
+            //int userNum = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= userNum; i++)
+            //{
+            //    if (userNum % 3 == 0)
+            //        {
+            //            Console.WriteLine("You won!");
+            //        break;
+            //        }
+            //    else
+            //    {
+            //        Console.WriteLine("You lost!");
+            //        Console.WriteLine("Please enter another interger.");
+            //        userNum = int.Parse(Console.ReadLine());
+                }
+            }
+
+
+
+            //if (userNum % 3 == 0)
+            //{
+            //    Console.WriteLine("You've won!");
+            //}
+            //else
+            //{
+
+            //}
+
+
 
 
 
