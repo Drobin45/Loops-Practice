@@ -153,7 +153,7 @@ namespace Loops_Practice
             //Console.WriteLine("What is your first name?");
             //string firstName = Console.ReadLine();
 
-            //while(firstName.ToUpper() == "DANIEL")
+            //while (firstName.ToUpper() == "DANIEL")
             //{
             //    Console.WriteLine("Dude, you are amazing!");
             //    break;
@@ -314,12 +314,41 @@ namespace Loops_Practice
             //Create an array of your favorite movies....
             //...Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
 
+            //string[] favMovies = { "Star wars", "Anchorman", "Avatar", "Serentity", "Super Troopers" };
+            //foreach(string movies in favMovies)
+            //{
+            //    if (movies.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movies.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movies.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movies.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movies.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else 
+            //    {
+            //        Console.WriteLine(movies);
+            //    }
+            //}
 
 
-                //Homework 5
-                //Write a console application that asks the user for an integer. 
-                //If that integer is evenly divisible by 3, then write “You Won!” 
-                //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+
+            //Homework 5
+            //Write a console application that asks the user for an integer. 
+            //If that integer is evenly divisible by 3, then write “You Won!” 
+            //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
 
 
 
