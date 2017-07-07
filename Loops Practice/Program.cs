@@ -28,7 +28,7 @@ namespace Loops_Practice
             //Two examples of a for loops
 
             //for (int i = 0; i <= 10; i++)
-            //{                
+            //{
             //    Console.WriteLine(i);
             //}
 
@@ -252,14 +252,7 @@ namespace Loops_Practice
             //    Console.WriteLine();
             //}
 
-
-
-
-
-
-
-
-
+            //------------------------------------------------------------------------------------
 
             // Homework 1
             //Write a program that takes your favorite foods and prints them out one at a time. (Use a foreach loop.)
@@ -277,19 +270,45 @@ namespace Loops_Practice
             //Creat an array of lucky numbers. Using a foreach loop, print out the following:
             // "Your lucky number is: #" 
             // Do this for five numbers.
-            //Began, but not finished yet
+            // Complete!
 
-            //int[] numbers = { 2, 4, 6, 8, 10 };
-
-            //foreach (int favorites in numbers)
+            //int[] numbers = { 7, 9, 13, 11, 19, 2 };
+            //foreach (int lucky in numbers)
             //{
-
+            //    Console.Write("Your lucky number is ");
+            //    Console.WriteLine(lucky);
             //}
+
 
             //Homework 3
             //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            //Complete!            
 
+            //Counts to 60 by 5's
+            //for (int i = 0; i < 5; i += 5)
+            //{
+            //    for (i = 5; i <= 60; i += 5)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
 
+            // Allows user to decide what kind of multiplaction tables. 
+            //int multNum = 1;
+            //Console.WriteLine("Enter in your first number");
+            //int firstNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter in your second number");
+            //int secondNumber = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= firstNumber; i ++)
+            //{
+            //    for(int j = 1; j<= secondNumber; j++)
+            //    {
+            //        Console.WriteLine(multNum * j + " ");                    
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
 
             //Homework 4
             //Create an array of your favorite movies....
@@ -297,10 +316,14 @@ namespace Loops_Practice
 
 
 
-            //Homework 5
-            //Write a console application that asks the user for an integer. 
-            //If that integer is evenly divisible by 3, then write “You Won!” 
-            //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+                //Homework 5
+                //Write a console application that asks the user for an integer. 
+                //If that integer is evenly divisible by 3, then write “You Won!” 
+                //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+
+
+
+
 
 
 
