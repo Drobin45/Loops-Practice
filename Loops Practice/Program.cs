@@ -366,26 +366,60 @@ namespace Loops_Practice
             //        Console.WriteLine("You lost!");
             //        Console.WriteLine("Please enter another interger.");
             //        userNum = int.Parse(Console.ReadLine());
-                }
-            }
+            //    }
+            //}         
+
+            //---------------------------------------------------------------------------------
+
+            //Write a console app that asks the user for a word or phrase...
+            //... then print the number of each vowel in that word to the console.
+            // Output: "Your phrase has _____A's"
+            //          "Your phrase has _____E's"
+            //          etc.
 
 
+            //Console.WriteLine("Please write a word or phrase");
+            //string words = Console.ReadLine();
 
-            //if (userNum % 3 == 0)
+            ////???
+            //if (words["a"]) 
             //{
-            //    Console.WriteLine("You've won!");
-            //}
-            //else
-            //{
 
             //}
+                                 
+
+        //------------------------------------------------------------------------------
+
+        // Makes computer output a random number from x to -1y
+        // Example (0-100) creates a number from 0-99
+        //If repeated, it will repeat the SAME number as the original
+        // To get multimple random numbers you have to type out a new "Next(x, y)"
+
+        //Random randNum = new Random();
+        //int rand = randNum.Next(0, 100);
+        //Console.WriteLine(rand);
+        //Console.WriteLine(rand);
+        //Console.WriteLine(rand);
+        //Console.WriteLine(randNum.Next(0,90));
+
+        //// alternative use
+
+        //Random randNum = new Random();           
+        //Console.WriteLine(randNum.Next(0, 100));
+
+
+        //Paper, Rocks, Scissors beginning! Super cool! This can be done with an int, string, or any collection really.
+        //Random randNumb = new Random();
+        //int[] numbers = { 3, 2, 5, 6, 7, 4, 9 };
+        //string[] words = { "Paper", "Rock", "Scissors" };
+        //string sayings = "You never know what's under a rock!";
+        //Console.WriteLine(words[randNumb.Next(0, 3)]);
+        //Console.WriteLine(numbers[randNumb.Next(0, 6)]);
+        //Console.WriteLine(sayings[randNumb.Next(0, sayings.Length)]);
 
 
 
 
-
-
-
-        }
+    }
     }
 }
